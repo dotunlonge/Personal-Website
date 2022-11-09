@@ -36,12 +36,6 @@ const styles = {
   }
 }
 
-const NonClickableButton = (props) => (
-  <button style={{ border: "1px solid #eee", padding: "0.5rem 1rem" }}>
-    {props.children}
-  </button>
-)
-
 const skills = ["HTML5", 'SCSS', 'TailwindCSS', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'React Native', 'NextJS', 'NodeJS',
 'ExpressJS' ,"MeteorJS", "APIs (REST and GraphQL)", "Gatsby","Netlify CMS", "Wordpress", 'AWS', 'MongoDB', 'Postgres', 'SQL', 'Firebase', 'PHP', 'Figma', "Sketch", "Adobe XD" ];
 
