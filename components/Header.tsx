@@ -80,7 +80,7 @@ export default function Header() {
                       <div className="flex" style={{ flexWrap: "wrap",flexDirection: 'row', justifyContent: 'flex-start', margin: '1em 0' }}>
                       {
                         skills.map((skill,i) => {
-                          return (<button style={styles.button.skill}>
+                          return (<button style={styles.button.skill} key={i}>
                             {skill}
                           </button>)
                         })
@@ -154,7 +154,7 @@ export default function Header() {
                                 <div className="flex" style={{ flexWrap: "wrap",flexDirection: 'row', justifyContent: 'flex-start', margin: '1em 0' }}>
                                 {
                                   skills.map((skill,i) => {
-                                    return (<button style={styles.button.skill}>
+                                    return (<button style={styles.button.skill} key={i}>
                                       {skill}
                                     </button>)
                                   })
