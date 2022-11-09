@@ -58,17 +58,15 @@ export default function Header() {
         }
       });
 
-
-
     return (
         <header>
             <div className="header flex dark-bg">
                 <div className="flex" style={{ margin: "auto", alignItems: "flex-start" }}>
-                  <div className='flex' style={{ flexDirection: 'column' }}>
+                  <div className='flex' style={{ flexDirection: 'column', width: "100%" }}>
                     <img
                     src="/images/oludotunlonge.jpg"
                     alt="oludotunlonge"
-                    style={{ marginTop: "4em", objectFit: "cover", height: "225px", width: "225px", borderRadius: "300px" }}
+                    style={{ margin: "auto", marginTop: "4em", objectFit: "cover", height: "225px", width: "225px", borderRadius: "300px" }}
                     />
                     <br/>
                     {
@@ -86,7 +84,7 @@ export default function Header() {
                       </div>
                     }
                     </div>
-                    <div style={{ padding: "1em 5% 1em 5%" }}>
+                    <div style={{ padding: screenwidthsmall ? "1em 2.5% 1em 2.5%":"1em 5% 1em 5%" }}>
                         <button>Full-Stack JavaScript Software Engineer</button>
                         <div className="flex-full about-text">
                               <h5 className="gray">Introduction</h5>
