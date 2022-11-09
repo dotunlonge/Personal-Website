@@ -48,23 +48,20 @@ export default function Header() {
 
     const [screenwidthsmall, isScreenSmall] = React.useState(typeof window !== "undefined" && window.innerWidth < 1200);
 
-    if(typeof window !== "undefined"){
 
       React.useEffect(function mount() {
-
-        function onAdjust() {
-          isScreenSmall(window.innerWidth < 1200);
+        if(typeof window !== "undefined"){
+          function onAdjust() {
+            isScreenSmall(window.innerWidth < 1200);
+          }
+          window.addEventListener("resize", onAdjust);
+          return function unMount() {
+            window.removeEventListener("resize", onAdjust);
+          };
         }
-
-        window.addEventListener("resize", onAdjust);
-
-        return function unMount() {
-          window.removeEventListener("resize", onAdjust);
-        };
-
       });
 
-    }
+
 
     return (
         <header>
