@@ -29,10 +29,11 @@ const styles = {
   },
   ul: {
     listStyleType: "none",
-  padding: 0, width: "auto",
-  alignItems: 'center', alignItems: 'flex-start',
-  flexDirection: 'row', justifyContent: 'flex-start'
-}
+    padding: 0, width: "auto",
+    alignItems: 'flex-start',
+    flexDirection: 'row',
+    justifyContent: 'flex-start'
+  }
 }
 
 const NonClickableButton = ({ children }) => (
