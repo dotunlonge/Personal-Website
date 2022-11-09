@@ -36,9 +36,9 @@ const styles = {
   }
 }
 
-const NonClickableButton = ({ children }) => (
+const NonClickableButton = (props) => (
   <button style={{ border: "1px solid #eee", padding: "0.5rem 1rem" }}>
-    {children}
+    {props.children}
   </button>
 )
 
