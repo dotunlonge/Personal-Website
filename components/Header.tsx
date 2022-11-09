@@ -124,7 +124,7 @@ export default function Header() {
                                     <li>
                                     <button
                                     style={ styles.button.letschat }
-                                    onClick={()=>window.open("mailto:oludotunlonge@gmail.com", '_blank')}>Let&#39;s Chat</button></li>
+                                    onClick={()=>window.open("mailto:oludotunlonge@gmail.com", '_blank')}>Let&#39;s Chat 😊 </button></li>
                               </ul>
 
                               <h5 className="gray">My Ventures</h5>
