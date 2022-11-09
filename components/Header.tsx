@@ -112,40 +112,40 @@ export default function Header() {
                                     <li>
                                     <button
                                     style={ styles.button.shared }
-                                    onClick={()=>window.open('/files/cover-letter.pdf', '_blank')}>
+                                    onClick={()=>window.open("/files/cover-letter.pdf", "_blank")}>
                                     Cover Letter</button></li>
                                     <li>
                                     <button
                                     style={ styles.button.shared}
-                                    onClick={()=>window.open('/files/resume.pdf', '_blank')}>Resume</button></li>
+                                    onClick={()=>window.open("/files/resume.pdf", "_blank")}>Resume</button></li>
                                     <li>
                                     <button
                                     style={ styles.button.letschat }
-                                    onClick={()=>window.open("mailto:oludotunlonge@gmail.com", '_blank')}>Let's Chat 😊 </button></li>
+                                    onClick={()=>window.open("mailto:oludotunlonge@gmail.com", "_blank")}>Let's Chat 😊 </button></li>
                               </ul>
 
                               <h5 className="gray">My Ventures</h5>
                               <ul className="flex" style={styles.ul}>
                                 <li>
-                                  <button style={ styles.button.shared } onClick={()=>window.open('https://dopeworm.com', '_blank')}>Dopeworm</button>
+                                  <button style={ styles.button.shared } onClick={()=>window.open("https://dopeworm.com", "_blank")}>Dopeworm</button>
                                 </li>
                                 <li >
-                                  <button style={ styles.button.shared } onClick={()=>window.open('https://fitsbydope.com', '_blank')}>Fits By Dope</button>
+                                  <button style={ styles.button.shared } onClick={()=>window.open("https://fitsbydope.com", "_blank")}>Fits By Dope</button>
                                 </li>
                               </ul>
                               <h5 className="gray">Projects I've Worked On</h5>
                               <ul className="flex" style={styles.ul}>
                                 <li>
-                                  <button style={ styles.button.shared } onClick={()=>window.open('https://fireflies.ai', '_blank')}>Fireflies.ai</button>
+                                  <button style={ styles.button.shared } onClick={()=>window.open("https://fireflies.ai", "_blank")}>Fireflies.ai</button>
                                 </li>
                                 <li >
-                                  <button style={ styles.button.shared } onClick={()=>window.open('https://hirebay.netlify.com', '_blank')}>Hirebay</button>
+                                  <button style={ styles.button.shared } onClick={()=>window.open("https://hirebay.netlify.com", "_blank")}>Hirebay</button>
                                 </li>
                                 <li>
-                                  <button style={ styles.button.shared } onClick={()=>window.open('https://investivgroup.com', '_blank')}>Investiv Group</button>
+                                  <button style={ styles.button.shared } onClick={()=>window.open("https://investivgroup.com", "_blank")}>Investiv Group</button>
                                 </li>
                                 <li >
-                                  <button style={ styles.button.shared } onClick={()=>window.open('https://swipemax.com/products/linda-ikeji-tv', '_blank')}>Linda Ikeji TV</button>
+                                  <button style={ styles.button.shared } onClick={()=>window.open("https://swipemax.com/products/linda-ikeji-tv", "_blank")}>Linda Ikeji TV</button>
                                 </li>
                               </ul>
                               { screenwidthsmall===true && <div>
