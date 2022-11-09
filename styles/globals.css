@@ -49,13 +49,12 @@ section {
 button {
   border: none;
   border-radius: 0.2rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   color: #2D2E32;
   font-size: 0.8rem;
   font-weight: 600;
   background-color: #e5d9c5;
   cursor: pointer;
-  min-width: 122.5px;
 }
 
 /* Header */
