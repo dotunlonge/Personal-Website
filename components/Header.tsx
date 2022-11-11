@@ -131,16 +131,16 @@ export default function Header() {
                               <h5 className="gray">Projects I've Worked On</h5>
                               <ul className="flex" style={styles.ul as React.CSSProperties}>
                                 <li>
-                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://fireflies.ai", "_blank")}>Fireflies.ai</button>
+                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://www.fireflies.ai", "_blank")}>Fireflies.ai</button>
                                 </li>
                                 <li >
                                   <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://hirebay.netlify.com", "_blank")}>Hirebay</button>
                                 </li>
                                 <li>
-                                  <button style={ styles.button.shared  as React.CSSProperties} onClick={()=>window.open("https://investivgroup.com", "_blank")}>Investiv Group</button>
+                                  <button style={ styles.button.shared  as React.CSSProperties} onClick={()=>window.open("https://www.investivgroup.com", "_blank")}>Investiv Group</button>
                                 </li>
                                 <li >
-                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://swipemax.com/products/linda-ikeji-tv", "_blank")}>Linda Ikeji TV</button>
+                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://www.swipemax.com/products/linda-ikeji-tv", "_blank")}>Linda Ikeji TV</button>
                                 </li>
                               </ul>
                               { screenwidthsmall===true && <div>
