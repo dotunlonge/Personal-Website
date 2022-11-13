@@ -122,10 +122,10 @@ export default function Header() {
                               <h5 className="gray">My Ventures</h5>
                               <ul className="flex" style={styles.ul as React.CSSProperties}>
                                 <li>
-                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://dopeworm.com", "_blank")}>Dopeworm</button>
+                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://www.dopeworm.com", "_blank")}>Dopeworm</button>
                                 </li>
                                 <li >
-                                  <button style={ styles.button.shared  as React.CSSProperties} onClick={()=>window.open("https://fitsbydope.com", "_blank")}>Fits By Dope</button>
+                                  <button style={ styles.button.shared  as React.CSSProperties} onClick={()=>window.open("https://www.fitsbydope.com", "_blank")}>Fits By Dope</button>
                                 </li>
                               </ul>
                               <h5 className="gray">Projects I've Worked On</h5>
@@ -140,7 +140,7 @@ export default function Header() {
                                   <button style={ styles.button.shared  as React.CSSProperties} onClick={()=>window.open("https://www.investivgroup.com", "_blank")}>Investiv Group</button>
                                 </li>
                                 <li >
-                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://www.swipemax.com/products/linda-ikeji-tv", "_blank")}>Linda Ikeji TV</button>
+                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://swipemax.com/products/linda-ikeji-tv", "_blank")}>Linda Ikeji TV</button>
                                 </li>
                               </ul>
                               { screenwidthsmall===true && <div>
