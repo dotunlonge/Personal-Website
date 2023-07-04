@@ -142,6 +142,9 @@ export default function Header() {
                                 <li >
                                   <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://swipemax.com/products/linda-ikeji-tv", "_blank")}>Linda Ikeji TV</button>
                                 </li>
+                                <li >
+                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://nestsafari.netlify.app/", "_blank")}>NestSafari</button>
+                                </li>
                               </ul>
                               { screenwidthsmall===true && <div>
 
