@@ -36,8 +36,8 @@ const styles = {
   }
 }
 
-const skills = ["HTML5", 'SCSS', 'TailwindCSS', 'CSS3', 'JavaScript', 'TypeScript', 'React', 'React Native', 'NextJS', 'NodeJS',
-'ExpressJS' ,"MeteorJS", "APIs (REST and GraphQL)", "Gatsby","Netlify CMS", "Wordpress", 'AWS', 'MongoDB', 'Postgres', 'SQL', 'Firebase', 'PHP', 'Figma', "Sketch", "Adobe XD" ];
+const skills = [ 'JavaScript', 'TypeScript', 'React', 'Redux', 'Zustand', 'React Query', 'React Native', 'NextJS', 'NodeJS',
+'ExpressJS', "RabbitMQ", "Redis" ,"MeteorJS", "Docker", "Blockchain", "APIs (REST and GraphQL)", "GRPC", "Gatsby","Netlify CMS", "Wordpress", 'AWS', 'MongoDB', 'Postgres', 'SQL', 'Firebase', 'PHP', 'Figma', "HTML5", 'SCSS', 'TailwindCSS', 'CSS3' ];
 
 export default function Header() {
 
@@ -85,7 +85,7 @@ export default function Header() {
                     }
                     </div>
                     <div style={{ padding: screenwidthsmall ? "1em 2.5% 1em 2.5%":"1em 5% 1em 5%" }}>
-                        <button>Full-Stack JavaScript Software Engineer</button>
+                        <button>Full-Stack Software Engineer</button>
                         <div className="flex-full about-text">
                               <h5 className="gray">Introduction</h5>
                               <h1 className="white">Hello, I&#39;m Oludotun Longe</h1>
@@ -104,11 +104,7 @@ export default function Header() {
                                           <Image src="/icons/github.svg" width={24} height={24} alt="github-icon" />
                                       </a>
                                   </li>
-                                    <li>
-                                    <button
-                                    style={ styles.button.shared as React.CSSProperties }
-                                    onClick={()=>window.open("/files/cover-letter.pdf", "_blank")}>
-                                    Cover Letter</button></li>
+
                                     <li>
                                     <button
                                     style={ styles.button.shared as React.CSSProperties}
@@ -122,7 +118,7 @@ export default function Header() {
                               <h5 className="gray">My Ventures</h5>
                               <ul className="flex" style={styles.ul as React.CSSProperties}>
                                 <li>
-                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://www.dopeworm.com", "_blank")}>Dopeworm</button>
+                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://beatstars.com/dopewormbeats", "_blank")}>Dopeworm</button>
                                 </li>
                                 <li >
                                   <button style={ styles.button.shared  as React.CSSProperties} onClick={()=>window.open("https://www.fitsbydope.com", "_blank")}>Fits By Dope</button>
@@ -130,9 +126,19 @@ export default function Header() {
                               </ul>
                               <h5 className="gray">Projects I've Worked On</h5>
                               <ul className="flex" style={styles.ul as React.CSSProperties}>
+                                       
+                                <li>
+                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://www.getshield.xyz", "_blank")}>Shield</button>
+                                </li>
+                                
                                 <li>
                                   <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://www.fireflies.ai", "_blank")}>Fireflies.ai</button>
                                 </li>
+
+                                <li>
+                                  <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://versusrx.com", "_blank")}>Versus</button>
+                                </li>
+                         
                                 <li >
                                   <button style={ styles.button.shared as React.CSSProperties } onClick={()=>window.open("https://hirebay.netlify.com", "_blank")}>Hirebay</button>
                                 </li>
