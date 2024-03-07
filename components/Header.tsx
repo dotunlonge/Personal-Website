@@ -89,16 +89,19 @@ export default function Header() {
                         <div className="flex-full about-text">
                               <h5 className="gray">Introduction</h5>
                               <h1 className="white">Hello, I&#39;m Oludotun Longe</h1>
-                              <p className="white">A Creative Thinker, Innovative Programmer and Internet Entrepreneur striving to make the world a more unified and connected place. I am adept in design, development, testing and maintenance of JavaScript based Software Systems.
-                              I am able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. I have over four years worth of professional experience having worked at two startups, two web development agencies and as a freelancer. </p>
-                              <h5 className="gray">More</h5>
+                              <p className="white">As a forward-thinking Software Engineer and Internet Entrepreneur, I am driven by the vision of a more interconnected and harmonious world through technology. Specializing in JavaScript-based software systems, my expertise spans the design, development, testing, and maintenance of innovative solutions. With over 7 years of professional experience, my journey has seen significant contributions to four startups and two web development agencies, alongside impactful freelance projects.
+<br/>
+My portfolio showcases my ability to lead in the creation of web applications, from concept to deployment, with a particular focus on enhancing user engagement through sophisticated UX/UI design and leveraging cutting-edge technologies like AI, ML, and web3. <br/>
+Adept at both independent management and collaborative teamwork, I thrive in environments that challenge the status quo and require creative problem-solving. My work is characterized by a relentless pursuit of excellence and a commitment to developing technologies that make a difference.</p>
 
                               <ul className="flex" style={styles.ul as React.CSSProperties}>
+
                                 <li style={ styles.li as React.CSSProperties }>
                                       <a href="https://www.linkedin.com/in/oludotunlonge" target="_blank" rel="noreferrer">
                                           <Image src="/icons/linkedin.svg" width={24} height={24} alt="linkedin-icon" />
                                       </a>
                                   </li>
+
                                   <li style={ styles.li as React.CSSProperties }>
                                       <a href="https://github.com/dotunlonge" target="_blank" rel="noreferrer">
                                           <Image src="/icons/github.svg" width={24} height={24} alt="github-icon" />
@@ -108,11 +111,19 @@ export default function Header() {
                                     <li>
                                     <button
                                     style={ styles.button.shared as React.CSSProperties}
-                                    onClick={()=>window.open("/files/resume.pdf", "_blank")}>Resume</button></li>
+                                    onClick={()=>window.open("/files/resume.pdf", "_blank")}>My Resume</button></li>
+                                    
+                                    <li>                                    
+                                    <button
+                                    style={ styles.button.shared as React.CSSProperties}
+                                    onClick={()=>window.open("https://upwork.com/freelancers/dotunlonge", "_blank")}>Chat Via Upwork </button>
+                                    </li>
+
                                     <li>
                                     <button
                                     style={ styles.button.letschat as React.CSSProperties}
-                                    onClick={()=>window.open("mailto:oludotunlonge@gmail.com", "_blank")}>Let's Chat 😊 </button></li>
+                                    onClick={()=>window.open("mailto:oludotunlonge@gmail.com", "_blank")}> Contact Me! 😊 </button></li>
+                              
                               </ul>
 
                               <h5 className="gray">My Ventures</h5>
@@ -124,7 +135,7 @@ export default function Header() {
                                   <button style={ styles.button.shared  as React.CSSProperties} onClick={()=>window.open("https://www.fitsbydope.com", "_blank")}>Fits By Dope</button>
                                 </li>
                               </ul>
-                              <h5 className="gray">Projects I've Worked On</h5>
+                              <h5 className="gray">My Portfolio</h5>
                               <ul className="flex" style={styles.ul as React.CSSProperties}>
                                        
                                 <li>
